@@ -193,6 +193,16 @@
                                 </div>
                                 <h5 class="result-title">Success! Image Encoded</h5>
                                 <p class="text-muted mb-3">Your message has been hidden and encrypted.</p>
+                                
+                                <div class="alert alert-warning mt-3 text-start" role="alert">
+                                    <div class="d-flex">
+                                        <i class="bi bi-exclamation-triangle-fill me-2 fs-5"></i>
+                                        <div>
+                                            <strong>Safe Sharing Warning:</strong><br>
+                                            Do NOT send this image through WhatsApp or social media as a photo. Always send as a <strong>document</strong> or <strong>ZIP file</strong> to preserve the hidden data.
+                                        </div>
+                                    </div>
+                                </div>
                                 <!-- Image preview removed as requested -->
                                 <div class="d-grid">
                                     <a href="#" class="btn btn-success btn-lg" id="download-btn" download="stego_image.png"><i class="bi bi-download me-2"></i>Download Encoded Image</a>
@@ -329,6 +339,19 @@
             } else {
                 document.querySelector('.navbar').classList.remove('scrolled');
             }
+        });
+
+        // Auto-close mobile menu when a link is clicked
+        const navLinks = document.querySelectorAll('.nav-link');
+        const menuToggle = document.getElementById('navbarNav');
+        const bsCollapse = new bootstrap.Collapse(menuToggle, {toggle: false});
+
+        navLinks.forEach((l) => {
+            l.addEventListener('click', () => {
+                if (menuToggle.classList.contains('show')) {
+                    bsCollapse.hide();
+                }
+            })
         });
     </script>
 </body>
