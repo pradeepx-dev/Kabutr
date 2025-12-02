@@ -329,7 +329,7 @@ Contributions are welcome and encouraged! To contribute:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-**Copyright (c) 2025 Pradeep Kumar Maurya**
+**Copyright (c) 2025**
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the conditions specified in the LICENSE file.
 
@@ -342,6 +342,10 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 - GitHub: [@pradeepx-dev](https://github.com/pradeepx-dev)
 - Project Link: [https://github.com/pradeepx-dev/Kabutr](https://github.com/pradeepx-dev/Kabutr)
 
+**Anurag Kumar**
+
+- GitHub: [@Account1-Anurag](https://github.com/Account1-Anurag)
+- Project Link: [https://github.com/Account1-Anurag/Kabutr](https://github.com/Account1-Anurag/Kabutr)
 ---
 
 ## Acknowledgments
